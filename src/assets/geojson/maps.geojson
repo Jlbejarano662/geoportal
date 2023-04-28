@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Open Street Map",
+        "url": "http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+        "maxZoom": 18
+    },
+    {
+        "title": "CARTO Positron",
+        "url": "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+        "maxZoom": 18
+    },
+    {
+        "title": "Voyager",
+        "url": "https://cartodb-basemaps-{s}.global.ssl.fastly.net/rastertiles/voyager_nolabels/{z}/{x}/{y}.png",
+        "maxZoom": 18
+    },
+    {
+        "title": "NatGeo World Map",
+        "url": "http://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}",
+        "maxZoom": 12
+    },
+    {
+        "title" : "World Imagery",
+        "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+        "maxZoom": 18
+    }
+]
